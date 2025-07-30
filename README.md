@@ -14,28 +14,27 @@ constitutes financial advice; it is for demonstration purposes only.**
 Financial asset prices are often modelled as geometric Brownian
 motion (GBM). Under GBM the percentage change of the asset price
 follows a stochastic differential equation that implies a log‑normal
-distribution for future prices【367345182495073†L482-L491】. This is the same
-assumption used by the Black–Scholes option pricing model【367345182495073†L462-L473】.
+distribution for future prices. This is the same
+assumption used by the Black–Scholes option pricing model.
 The Black–Scholes formula computes the theoretical value of a European
 call option by subtracting the discounted strike price weighted by the
 cumulative normal distribution from the current stock price weighted
 by another cumulative normal distribution【367345182495073†L462-L473】. The inputs
 required are the current price, strike price, risk‑free rate, time to
-maturity and volatility【367345182495073†L600-L609】.
+maturity and volatility.
 
 When analysing historical price series it is common to compute
 log‑returns, which are the natural logarithm of price ratios. These
 returns are often modelled by ARIMA processes. An ARIMA
 model is one of the most general classes of forecasting models for
 series that have been made stationary by differencing; a stationary
-series has constant mean and variance and unchanging autocorrelations
-【933831025600445†L34-L41】. The ARIMA forecasting equation expresses the
+series has constant mean and variance and unchanging autocorrelations. The ARIMA forecasting equation expresses the
 future value of the series as a linear combination of its past values
-and past forecast errors【933831025600445†L52-L58】. The acronym ARIMA
+and past forecast errors. The acronym ARIMA
 stands for AutoRegressive Integrated Moving Average, and its three
 parameters `(p, d, q)` denote respectively the number of
 autoregressive terms, the number of differences required for
-stationarity and the number of moving‑average terms【933831025600445†L75-L87】.
+stationarity and the number of moving‑average terms.
 
 ## Features
 
@@ -126,8 +125,3 @@ The console will display a human‑readable summary for each ticker.
 Despite these limitations, the project demonstrates how classic
 techniques from quantitative finance can be integrated into a single
 analysis pipeline.
-
-## License
-
-This project is released under the MIT License. See the `LICENSE` file
-for details.
